@@ -24,23 +24,22 @@ $(window).on('load', function () {
 });
 
 $(function () {
-    // Mobile menu
-    // $("#main-header .menu-toggle").click(function () {
-    //     $(".mobile-menu").toggleClass("active");
-    // });
-
-    // $(".mobile-menu").click(function (event) {
-    //     if ($(event.target).is(this)) {
-    //         $(this).removeClass("active")
-    //     }
-    // });
-
-    $('.menu-list a, .banner-text a').click(function (e) {
-        e.preventDefault();
+    $('.menu-list a, #home-banner a').click(function () {
         let fixedHeight = $('#header').outerHeight();
         let id = $(this).attr("href");
         $("html, body").animate({ scrollTop: $(id).offset().top - fixedHeight + 1 }, 0);
-        $(this).addClass('active');
+    });
+
+    // Mobile menu
+    $("#header .menu-toggle, .mobile-menu a").click(function () {
+        $(".mobile-menu").toggleClass("active");
+    });
+
+    $(".mobile-menu").click(function (event) {
+        console.log($(event.target));
+        if ($(event.target).is(this)) {
+            $(this).removeClass("active")
+        }
     });
 
     // Scroll top button

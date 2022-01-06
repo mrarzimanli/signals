@@ -1,0 +1,363 @@
+@media (max-width: 1399px) {
+
+    /* ================================
+            Gloabl variables
+    ================================ */
+    :root {
+        /* Special font sizes */
+        --page-heading: 36px;
+        --section-heading: 32px;
+        --block-heading-lg: 23px;
+        --block-heading-md: 21px;
+        --block-heading-sm: 19px;
+    }
+
+    /* ================================
+            Basics
+    ================================ */
+
+    /* Content padding */
+    .content-box-lg {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    .content-box-md {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .content-box-sm {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .swiper-lazy-preloader {
+        background-size: 140px;
+    }
+
+    /* Section header */
+    .section-header {
+        margin-bottom: 45px;
+    }
+
+    /* Preloader */
+    .preloader img {
+        width: 180px;
+    }
+}
+
+@media (max-width: 1199px) {
+
+    /* ================================
+            Gloabl variables
+    ================================ */
+    :root {
+        /* Special font sizes */
+        --page-heading: 34px;
+        --section-heading: 30px;
+        --block-heading-lg: 22px;
+        --block-heading-md: 20px;
+        --block-heading-sm: 18px;
+        /* General font sizes */
+        --font-size-xs: 12px;
+        --font-size-sm: 13px;
+        --font-size-md: 14px;
+        --font-size-lg: 15px;
+        --font-size-xl: 16px;
+        --font-size-xxl: 17px;
+    }
+
+    /* ================================
+            Basics
+    ================================ */
+
+    /* Content padding */
+    .content-box-lg {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .content-box-md {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .content-box-sm {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .swiper-lazy-preloader {
+        background-size: 130px;
+    }
+
+    /* Section header */
+    .section-header {
+        margin-bottom: 40px;
+    }
+
+    /* Preloader */
+    .preloader img {
+        width: 160px;
+    }
+
+    /* Scroll top button */
+    #btn-scroll-top {
+        width: 43px;
+        height: 43px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    /* ================================
+            Gloabl variables
+    ================================ */
+    :root {
+        /* Special font sizes */
+        --page-heading: 32px;
+        --section-heading: 28px;
+        --block-heading-lg: 21px;
+        --block-heading-md: 19px;
+        --block-heading-sm: 17px;
+    }
+
+    /* ================================
+            Basics
+    ================================ */
+
+    /* Content padding */
+    .content-box-lg {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .content-box-md {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .content-box-sm {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .swiper-lazy-preloader {
+        background-size: 120px;
+    }
+
+    /* Section header */
+    .section-header {
+        margin-bottom: 35px;
+    }
+
+    /* Preloader */
+    .preloader img {
+        width: 140px;
+    }
+
+    /* Scroll top button */
+    #btn-scroll-top {
+        width: 41px;
+        height: 41px;
+    }
+
+    /* Header */
+    .menu-list li:not(:last-child) {
+        margin-right: 25px;
+    }
+
+    .header-wrapper .header-left a {
+        width: 110px;
+        height: 45px;
+    }
+
+    /* Home Banner */
+    .homeBannerSwiper .banner-text p {
+        margin-bottom: 24px;
+    }
+
+    /* Signals */
+    .signal-box .box-header {
+        padding: 12px;
+    }
+
+    /* Performace */
+    .nav-tabs .nav-link {
+        padding-bottom: 6px 10px;
+    }
+
+    /* Totals */
+    .table thead tr th {
+        padding: 0.75rem;
+    }
+
+    .table tbody tr td {
+        padding: 0.5rem 0.75rem;
+    }
+
+    /* Footer */
+    .footer-wrapper {
+        flex-direction: column;
+    }
+
+    .footer-contact {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .footer-contact>*:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* ================================
+            Gloabl variables
+    ================================ */
+    :root {
+        /* Special font sizes */
+        --page-heading: 30px;
+        --section-heading: 26px;
+        --block-heading-lg: 20px;
+        --block-heading-md: 18px;
+        --block-heading-sm: 16px;
+    }
+
+    /* ================================
+            Basics
+    ================================ */
+    /* General buttons */
+    .btn-general {
+        height: 42px;
+        min-width: 140px;
+    }
+
+    /* Content padding */
+    .content-box-lg {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .content-box-md {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .content-box-sm {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .swiper-lazy-preloader {
+        background-size: 110px;
+    }
+
+    /* Section header */
+    .section-header {
+        margin-bottom: 30px;
+    }
+
+    /* Preloader */
+    .preloader img {
+        width: 120px;
+    }
+
+    /* Scroll top button */
+    #btn-scroll-top {
+        width: 39px;
+        height: 39px;
+    }
+
+    /* Header */
+    .menu-list li:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .header-wrapper .header-left a {
+        width: 100px;
+        height: 40px;
+    }
+
+    /* Signals */
+    .signal-box {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    /* Performace */
+    .nav-tabs .nav-link {
+        padding-bottom: 6px 10px;
+    }
+
+    /* Subscribe */
+    #subscribeForm .input-group button, #subscribeForm .input-group input {
+        height: 45px;
+    }
+
+    /* Blogs */
+    .blog-box {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .blog-inner-box .box-img {
+        margin-bottom: 20px;
+    }
+
+    .blog-inner-box .box-text h2 {
+        margin-bottom: 10px;
+    }
+
+    /* Premium */
+    .premium-wrapper {
+        flex-direction: column;
+        padding-bottom: 25px;
+    }
+
+    .premium-box .box-header {
+        padding: 20px;
+    }
+
+    .premium-box .box-footer {
+        padding: 15px;
+    }
+
+    .premium-box:not(:last-child) {
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    /* ================================
+            Gloabl variables
+    ================================ */
+    :root {
+        /* Special font sizes */
+        --page-heading: 28px;
+        --section-heading: 24px;
+    }
+
+    /* ================================
+            Basics
+    ================================ */
+
+    .swiper-lazy-preloader {
+        background-size: 100px;
+    }
+
+
+    /* Premium */
+    .premium-wrapper {
+        flex-direction: column;
+        padding-bottom: 25px;
+    }
+
+    .premium-box .box-header {
+        padding: 15px;
+    }
+}

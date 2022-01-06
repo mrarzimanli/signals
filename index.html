@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
-<body>
+<body class="home">
     <!-- Preloader -->
     <div class="preloader">
         <img src="img/prelader.svg" alt="">
@@ -29,23 +30,23 @@
                         <img src="https://via.placeholder.com/120x50" alt="">
                     </a>
                 </div>
-                <div class="header-right">
+                <div class="header-right d-none d-sm-block">
                     <nav class="header-menu">
                         <ul class="menu-list">
                             <li>
                                 <a href="#signals">Signals</a>
                             </li>
                             <li>
-                                <a href="#blogs">Blogs</a>
+                                <a href="#subscribe">Subscribe</a>
                             </li>
                             <li>
-                                <a href="#subscribe">Subscribe</a>
+                                <a href="#blogs">Blogs</a>
                             </li>
                             <li class="premium">
                                 <a href="#premium">Premium</a>
                             </li>
                         </ul>
-                        <ul class="lang-list">
+                        <!-- <ul class="lang-list">
                             <li>
                                 <button><span>ENG</span><i class="fas fa-chevron-down"></i></button>
                             </li>
@@ -57,8 +58,60 @@
                                     <a href="#">FR</a>
                                 </li>
                             </ul>
-                        </ul>
+                        </ul> -->
                     </nav>
+                </div>
+                <div class="menu-toggle d-sm-none">
+                    <div class="menu-bars">
+                        <div class="one"></div>
+                        <div class="two"></div>
+                        <div class="three"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-menu d-sm-none">
+                <div class="menu-wrapper">
+                    <div class="menu-header">
+                        <div class="mobile-menu-logo">
+                            <a href="index.html">
+                                <img src="https://via.placeholder.com/120x50" alt="">
+                            </a>
+                        </div>
+                        <div class="menu-toggle active">
+                            <div class="menu-bars">
+                                <div class="one"></div>
+                                <div class="two"></div>
+                                <div class="three"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-body">
+                        <nav class="main-menu">
+                            <ul class="menu-list mobile">
+                                <li>
+                                    <a href="#signals">Signals</a>
+                                </li>
+                                <li>
+                                    <a href="#blogs">Blogs</a>
+                                </li>
+                                <li>
+                                    <a href="#subscribe">Subscribe</a>
+                                </li>
+                                <li class="premium">
+                                    <a href="#premium">Premium</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="menu-footer">
+                        <ul class="social-list mobile">
+                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -68,7 +121,7 @@
             <div class="swiper homeBannerSwiper">
                 <div class="swiper-wrapper content-box-lg">
                     <div class="swiper-slide">
-                        <div class="row">
+                        <div class="row gy-4">
                             <div class="col-lg-6">
                                 <div class="banner-text">
                                     <h1><span class="hash-sign">#</span>Lorem ipsum dolor sit - 1</h1>
@@ -78,7 +131,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="banner-img">
-                                    <img data-src="https://via.placeholder.com/600x800" class="swiper-lazy" />
+                                    <img data-src="https://via.placeholder.com/600x400" class="swiper-lazy" />
                                     <div class="swiper-lazy-preloader"></div>
                                 </div>
                             </div>
@@ -95,7 +148,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="banner-img">
-                                    <img data-src="https://via.placeholder.com/600x800" class="swiper-lazy" />
+                                    <img data-src="https://via.placeholder.com/600x400" class="swiper-lazy" />
                                     <div class="swiper-lazy-preloader"></div>
                                 </div>
                             </div>
@@ -112,7 +165,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="banner-img">
-                                    <img data-src="https://via.placeholder.com/600x800" class="swiper-lazy" />
+                                    <img data-src="https://via.placeholder.com/600x400" class="swiper-lazy" />
                                     <div class="swiper-lazy-preloader"></div>
                                 </div>
                             </div>
@@ -129,7 +182,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="banner-img">
-                                    <img data-src="https://via.placeholder.com/600x800" class="swiper-lazy" />
+                                    <img data-src="https://via.placeholder.com/600x400" class="swiper-lazy" />
                                     <div class="swiper-lazy-preloader"></div>
                                 </div>
                             </div>
@@ -147,7 +200,7 @@
             </div>
             <div class="signals-wrapper">
                 <div class="row gy-4">
-                    <div class="col-lg-4">
+                    <div class="col-md-6 col-xl-4">
                         <div class="signal-box">
                             <div class="box-header">
                                 <div class="header-left">
@@ -206,7 +259,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-6 col-xl-4">
                         <div class="signal-box">
                             <div class="box-header">
                                 <div class="header-left">
@@ -265,7 +318,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-6 col-xl-4">
                         <div class="signal-box">
                             <div class="box-header">
                                 <div class="header-left">
@@ -324,7 +377,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-6 col-xl-4">
                         <div class="signal-box">
                             <div class="box-header">
                                 <div class="header-left">
@@ -383,7 +436,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-6 col-xl-4">
                         <div class="signal-box">
                             <div class="box-header">
                                 <div class="header-left">
@@ -442,7 +495,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-6 col-xl-4">
                         <div class="signal-box">
                             <div class="box-header">
                                 <div class="header-left">
@@ -815,12 +868,12 @@
             </div>
             <div class="instruction-wrapper">
                 <div class="row gy-4">
-                    <div class="col-lg-7">
+                    <div class="col-xl-7">
                         <div class="instruction-text">
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla facere est ad magnam animi rem ducimus placeat in, qui culpa, perferendis corrupti cupiditate natus neque, ex libero impedit quos assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet corporis nulla hic vitae, sequi necessitatibus commodi blanditiis ad eveniet modi repellat incidunt voluptate autem molestias natus deserunt. Et, voluptatibus totam? <br><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad doloribus reprehenderit doloremque tempore obcaecati aperiam eaque itaque quam fugit nihil similique quas harum beatae illo blanditiis, ex nemo expedita architecto. <br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, est tempora non adipisci laborum reprehenderit architecto placeat animi voluptatum minus? Nobis perspiciatis quos quaerat, aliquid ipsa tenetur cupiditate ut delectus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil esse nobis reiciendis facilis, magni quis velit maxime odio, cupiditate repudiandae vel, blanditiis tempore exercitationem ipsam. Necessitatibus optio architecto pariatur esse? </p>
                         </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-xl-5">
                         <div class="instruction-img">
                             <img src="https://via.placeholder.com/550x350" alt="">
                         </div>
@@ -836,12 +889,12 @@
             </div>
             <div class="disclaimer-wrapper">
                 <div class="row gy-4">
-                    <div class="col-lg-5">
+                    <div class="col-xl-5">
                         <div class="disclaimer-img">
                             <img src="https://via.placeholder.com/550x350" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-7">
+                    <div class="col-xl-7">
                         <div class="disclaimer-text">
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla facere est ad magnam animi rem ducimus placeat in, qui culpa, perferendis corrupti cupiditate natus neque, ex libero impedit quos assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet corporis nulla hic vitae, sequi necessitatibus commodi blanditiis ad eveniet modi repellat incidunt voluptate autem molestias natus deserunt. Et, voluptatibus totam? <br><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad doloribus reprehenderit doloremque tempore obcaecati aperiam eaque itaque quam fugit nihil similique quas harum beatae illo blanditiis, ex nemo expedita architecto. <br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, est tempora non adipisci laborum reprehenderit architecto placeat animi voluptatum minus? Nobis perspiciatis quos quaerat, aliquid ipsa tenetur cupiditate ut delectus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil esse nobis reiciendis facilis, magni quis velit maxime odio, cupiditate repudiandae vel, blanditiis tempore exercitationem ipsam. Necessitatibus optio architecto pariatur esse? </p>
                         </div>
@@ -853,7 +906,7 @@
     <section id="subscribe" class="content-box-lg">
         <div class="container">
             <div class="subscribe-wrapper content-box-lg">
-                <div class="row">
+                <div class="row gy-4">
                     <div class="col-lg-6">
                         <form action="" id="subscribeForm">
                             <div class="input-group">
@@ -1031,11 +1084,11 @@
                         </li>
                     </ul>
                     <ul class="social-list">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
                     </ul>
                 </div>
                 <div class="footer-copyright">
