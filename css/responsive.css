@@ -163,6 +163,11 @@
         height: 41px;
     }
 
+    /* Home banner */
+    .homeBannerSwiper .banner-text h1 .hash-sign {
+        width: 38px;
+    }
+
     /* Header */
     .menu-list li:not(:last-child) {
         margin-right: 25px;
@@ -261,6 +266,10 @@
         margin-bottom: 30px;
     }
 
+    .section-header h2 .hash-sign {
+        width: 28px;
+    }
+
     /* Preloader */
     .preloader img {
         width: 120px;
@@ -270,6 +279,25 @@
     #btn-scroll-top {
         width: 39px;
         height: 39px;
+    }
+
+    /* Home banner */
+    .homeBannerSwiper .banner-text h1 .hash-sign {
+        width: 34px;
+    }
+
+    .homeBannerSwiper .banner-img {
+        padding-right: 25px;
+        padding-bottom: 25px;
+    }
+
+    .homeBannerSwiper .banner-img:after {
+        position: absolute;
+        content: '';
+        top: 25px;
+        left: 25px;
+        width: calc(100% - 25px);
+        height: calc(100% - 25px);
     }
 
     /* Header */
@@ -302,6 +330,14 @@
     .blog-box {
         max-width: 400px;
         margin: 0 auto;
+    }
+
+    .blogsSwiper .swiper-slide:nth-child(2n+2) {
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
     }
 
     .blog-inner-box .box-img {
@@ -345,11 +381,29 @@
     /* ================================
             Basics
     ================================ */
+    #btn-scroll-top {
+        bottom: 15px;
+        right: 15px;
+    }
 
     .swiper-lazy-preloader {
         background-size: 100px;
     }
 
+    /* Home banner */
+    .homeBannerSwiper .banner-img {
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .homeBannerSwiper .banner-img:after {
+        position: absolute;
+        content: '';
+        top: 20px;
+        left: 20px;
+        width: calc(100% - 20px);
+        height: calc(100% - 20px);
+    }
 
     /* Premium */
     .premium-wrapper {

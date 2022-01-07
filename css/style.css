@@ -705,9 +705,10 @@ img {
 }
 
 .homeBannerSwiper .banner-text h1 .hash-sign {
+    display: inline-block;
     color: var(--primary-design-color);
     font-weight: 700;
-    margin-right: 10px;
+    width: 42px;
 }
 
 .homeBannerSwiper .banner-text p {
@@ -979,11 +980,8 @@ img {
     width: 70%;
     border: none;
     background-color: var(--primary-bg-color);
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
     padding: 10px 15px;
 }
 
@@ -1308,10 +1306,6 @@ img {
     margin-bottom: 15px;
 }
 
-.blog-inner-box .box-text p {
-    font-size: var(--font-size-lg);
-}
-
 .blog-inner-box .box-footer {
     display: flex;
     align-items: center;
@@ -1469,7 +1463,7 @@ img {
 
 .menu-list.mobile li a {
     color: var(--primary-text-color);
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 
