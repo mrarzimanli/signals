@@ -302,7 +302,6 @@ img {
 }
 
 /* Swiper general  */
-
 .swiper {
     width: 100%;
     height: 100%;
@@ -693,8 +692,8 @@ img {
     display: flex;
     height: 100%;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
+    justify-content: center;
 }
 
 .homeBannerSwiper .banner-text h1 {
@@ -718,6 +717,7 @@ img {
 .homeBannerSwiper .banner-img {
     position: relative;
     width: 100%;
+    height: 400px;
     padding-right: 30px;
     padding-bottom: 30px;
     z-index: 1;
@@ -738,7 +738,6 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center;
 }
 
 /* ================================
@@ -777,8 +776,8 @@ img {
     width: 30px;
 }
 
-.signal-box .box-header .header-left .signal-icon-wrapper img:first-child {
-    margin-right: 5px;
+.signal-box .box-header .header-left .signal-icon-wrapper img:last-child {
+    margin-left: 5px;
 }
 
 .signal-box .box-header .header-left .signal-name-wrapper .signal-name {
@@ -830,7 +829,7 @@ img {
     margin-left: 5px;
 }
 
-.signal-box .box-body .signal-status {
+.signal-box .box-body .signal-type {
     font-size: var(--block-heading-lg);
     font-weight: 700;
     display: block;
@@ -852,27 +851,14 @@ img {
 
 .performance-wrapper {
     width: 100%;
-    max-width: 950px;
-    margin: 0 auto;
-}
-
-.performance-box {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.performance-box img {
-    width: 100%;
 }
 
 .nav-tabs {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border: none;
     flex-wrap: nowrap;
     overflow-x: auto;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     justify-content: space-between;
 }
 
@@ -881,6 +867,7 @@ img {
     min-width: 80px;
     padding: 8px 12px;
     color: var(--primary-text-color);
+    white-space: nowrap;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
@@ -897,9 +884,16 @@ img {
 }
 
 /* ================================
+        Current Performances
+================================ */
+.table tbody tr td.negative {
+    color: #e74c3c;
+}
+
+/* ================================
         Totals
 ================================ */
-.totals-wrapper table {
+table {
     white-space: nowrap;
     box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.1);
 }
@@ -916,7 +910,7 @@ img {
     padding: 0.5rem 1rem;
 }
 
-.totals-wrapper table tr>*:not(:first-child) {
+table tr>*:not(:first-child) {
     text-align: right;
 }
 

@@ -53,10 +53,22 @@ $(function () {
         $('.lang-dropdown').stop(true, false, true).toggleClass('active');
     });
 
+    // Tab content
+    $('#signalsTab button[data-bs-toggle="tab"]').on('show.bs.tab', function (e) {
+        let target = $(e.target).data('bs-target');
+        console.log(target)
+        $(target).addClass('show active').siblings('.tab-pane.active').removeClass('show active');
+    });
+
     // Home banner swiper
     const swiper = new Swiper(".homeBannerSwiper", {
         lazy: true,
         spaceBetween: 50,
+        autoplay: {
+            pauseOnMouseEnter: false,
+            disableOnInteraction: false,
+            delay: 3000,
+        },
         pagination: {
             el: ".swiper-pagination",
             type: "progressbar",
@@ -64,6 +76,10 @@ $(function () {
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
+        },
+        keyboard: {
+            enabled: true,
+            onlyInViewport: false,
         },
     });
     // Blogs slider
